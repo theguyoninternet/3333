@@ -17,13 +17,11 @@ const Fila = ()=> {
         
       };
 
+      
         tamanho = () => dados.length;
         imprimir = () => {
-            if (document.getElementById('valor') == "") {
-                alert("valor não valido");
-                return false;
-            };
-            
+           if(dados.length < 2){ return;} //Mexer nisto depois.
+              
             document.getElementById('saida_fila').innerHTML = dados;
         } //
 
