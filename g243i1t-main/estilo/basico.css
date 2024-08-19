@@ -1,0 +1,154 @@
+.tablet{
+    display:none;
+}
+.desktop{
+    display: none;
+}
+.mobile{
+    font-size:50px;
+    color:rgb(20, 0, 0);
+
+}
+
+
+body {
+    background-color: rgb(185, 183, 161)
+  }
+  .conteudo {
+    text-align: center;
+  }
+  .botao{
+    background-color: rgb(255, 164, 90);
+  text-align: center;
+  font-size: 26px;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 60px;
+}
+.abas{
+width: 100%;
+height: 400px;
+
+}
+#aba1 {
+    background-color: rgb(223, 217, 163);
+    display:none;
+}
+#aba2 {
+    background-color: rgb(245, 236, 151);
+    display:none;
+}
+#aba3 {
+    background-color: rgb(255, 206, 131);
+    display:none;
+}
+#aba4 {
+    background-color: rgb(255, 195, 154);
+    display:none;
+}
+#aba5 {
+    background-color: rgb(255, 162, 149);
+    display:none;
+}
+.barra{
+    width:100%;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(245, 201, 106);
+    padding-top: 6px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+}
+
+
+
+
+@media (min-width:800px){
+    .desktop{display:none;}
+    .mobile{display: none;}
+    .tablet{
+        font-size: 55px;
+        color: rgb(0, 20, 0);
+        display: inline;
+    }
+
+
+    body {
+        background-color: rgb(116, 153, 133)
+      } 
+    .barra{
+        background-color: rgb(161, 255, 197);
+
+    }
+    .conteudo{
+        text-align: left;
+    }
+    .botao{
+        margin-top: 0%;
+        background-color: rgb(121, 201, 131);
+        color: rgb(0, 20, 0);
+        width: 19.5%;    
+        font-size: 30px;
+    }
+    #aba1 {
+        background-color: rgb(201, 255, 222);
+    }
+    #aba2 {
+        background-color: #9effc3;
+    }
+    #aba3 {
+        background-color: rgb(133, 255, 170);
+    }
+    #aba4 {
+        background-color: rgb(175, 255, 155);
+    }
+    #aba5 {
+        background-color: rgb(133, 255, 144);
+    }
+
+}
+
+@media (min-width:1228px){
+    .mobile{display: none;}
+    .tablet{display: none;}
+    .desktop{
+        display:inline;
+        font-size: 65px;
+        color: rgb(0, 0, 20);
+    }
+
+    .barra{
+        background-color: dodgerblue;
+        height:95px;
+    }
+    .conteudo{
+        text-align: left;
+    }
+    .botao{
+        margin-top: 0%;
+        background-color: rgb(51, 68, 221);
+        color: rgb(0, 0, 0);
+        width: 19.5%;    
+        font-size: 30px;
+    }
+#aba1 {
+    background-color: rgb(191, 245, 255);
+}
+#aba2 {
+    background-color: rgb(167, 233, 253);
+}
+#aba3 {
+    background-color: rgb(135, 225, 236);
+}
+#aba4 {
+    background-color: rgb(168, 195, 255);
+}
+#aba5 {
+    background-color: rgb(169, 255, 233);
+}
+body {
+    background-color: rgb(116, 131, 153)
+  } 
+
+}
